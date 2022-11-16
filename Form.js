@@ -17,7 +17,7 @@ export default function Form({ title, settitle, desc, setdesc, notes, setnotes }
                     [...note, {
                         title: title,
                         desc: desc,
-                        id: new Date().getTime()
+                        id: new Date().getSeconds()
                     }]
                 )
             })
